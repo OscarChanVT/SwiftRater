@@ -93,6 +93,7 @@ import StoreKit
 
     @objc public static var showLog: Bool = false
     @objc public static var resetWhenAppUpdated: Bool = true
+    @objc public static var isMet = UsageDataManager.shared.ratingConditionsHaveBeenMet
 
     @objc public static var shared = SwiftRater()
 
